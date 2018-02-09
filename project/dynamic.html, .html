@@ -4,155 +4,439 @@
     <meta charset="utf-8">
     <title> Diya project 1</title>
     <style>
-    div{background-color:MidnightBlue	;}
-    p0.disco{color:Khaki;
-      max-width:1000px;
-      position: fixed;
-      top:50px;
-      left:50px;
-      font-size:450px;
-    }
-    p6.disco{color:Khaki;
-         max-width:500px;
-         position:fixed;
-         top:260px;
-         left:300px;
-         font-size:280px;
-         transform:rotate(90deg);
+
+ div.shape1 {
+   width:850px;
+   height:150px;
+   background-color: black;
+   z-index:-2;
+   position: absolute;
+   top: 2800px;
+   left: -100px;
+   opacity:1;
+   animation: shape1 3s infinite alternate; /* IE 10+, Fx 29+ */
+   z-index:9;
+
+ }
+
+ p12.line1{
+   font-size:80px;
+   max-width: 1000px;
+   color: #ffffff;
+   position:absolute;
+   top: 2810px;
+   left:-100px;
+   animation: text1 9s infinite alternate; /* IE 10+, Fx 29+ */
+   z-index: 10;
+   width:1000px;
+ }
+ @keyframes text1{
+   0% { left:-600px;}
+
+   100% { left: 2000px;}
+ }
+
+@keyframes shape1 {
+  0% { left:-600px;}
+
+  100% { left: 950px;}
+}
+
+div.shape2 {
+  width:850px;
+  height:150px;
+  background-color: black;
+  z-index:-2;
+  position: absolute;
+  top: 3000px;
+  left: 950px;
+  opacity:1;
+  animation: shape2 3s infinite alternate; /* IE 10+, Fx 29+ */
+
+}
+
+@keyframes shape2 {
+  0% { left:950px;}
+
+  100% { left: -600px;}
+}
+
+div.shape3 {
+  width:850px;
+  height:150px;
+  background-color: black;
+  z-index:-2;
+  position: absolute;
+  top: 5200px;
+  left: -100px;
+  opacity:1;
+  animation: shape1 2s infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+@keyframes shape1 {
+ 0% { left:-600px;}
+
+ 100% { left: 950px;}
+}
+
+div.shape4 {
+  width:850px;
+  height:150px;
+  background-color: black;
+  z-index:-2;
+  position: absolute;
+  top: 3900px;
+  left: 950px;
+  opacity:1;
+  animation: shape2 2s infinite alternate; /* IE 10+, Fx 29+ */
+
+}
+
+@keyframes shape2 {
+  0% { left:950px;}
+
+  100% { left: -600px;}
+}
+div.shape5{
+  width:850px;
+  height:150px;
+  background-color: black;
+  z-index:-2;
+  position: absolute;
+  top: 3600px;
+  left: 950px;
+  opacity:1;
+  animation: shape1 2s infinite alternate; /* IE 10+, Fx 29+ */
+
+}
+
+@keyframes shape1 {
+  0% { left:-600px;}
+
+  100% { left: 950px;}
+}
 
 
 
-    }
-    p7.disco{color:Khaki;
-         max-width:500px;
-         position:fixed;
-         top:500px;
-         left:480px;
-         font-size:240px;
-    }
-    p8.disco{color:black;
-         max-width:500px;
-         position:fixed;
-         top:400px;
-         left:580px;
-         font-size:200px;
-    }
-    p9.disco{color:Khaki;
-         max-width:500px;
-         position:fixed;
-         top:80px;
-         left:80px;
-         font-size:180px;
-    }
-    p10.disco{color:Khaki;
-         max-width:500px;
-         position:fixed;
-         top:500px;
-         left:410px;
-         font-size:180px;
-    }
 
 
 
 
 
-    p1.disco{color:Khaki;
+
+
+
+    p1.disco{color:#ffffff;
       position:absolute;
-      top:100px;
+      top:1400px;
       left:100px;
-      font-size:10px;
-      transform:rotate(45deg);
-
-
+      font-size:20px;
+      max-width: 300px;
 
     }
-    p2.disco{color:Khaki;
+
+
+    p2.disco{color:black;
        position:absolute;
-       top:300px;
-       left:500px;
-       font-size: 10px;
+       top:1700px;
+       left:140px;
+       font-size: 30px;
+       transform:rotate(330deg);
+       max-width: 200px;
 
 
     }
-  #rectangle {
-    width:600px;
-    height: 100px;
-    position:absolute;
-    top:200px;
-    left:200px;
-    transform:rotate(300deg);
-    background:#ffff66;
-    opacity: 0.6;
 
-    }
-    p11.disco{color:Khaki;
+
+
+    p11.disco{color:#ffffff;
        position:absolute;
-       top:400px;
-       left:700px;
-       font-size: 10px;
+       top:2000px;
+       left:80px;
+       font-size: 40px;
+      max-width: 350px;
 
 
 
     }
-    c1.disco{color:#ffff00;
-       position:fixed;
-       top:10px;
-       left:700px;
-       font-size:500px;
-       transform:rotate(300deg);
 
 
-    }
-    p4.disco{color:Khaki;
+
+    p4.disco{color:black;
        position:absolute;
-       top:600px;
-       left:200px;
-       font-size:10px;
+       top:3500px;
+       left:380px;
+       font-size:30px;
+       max-width: 200px;
+       opacity:.8;
 
 
 
 
     }
-    p5.disco{color:Khaki;
+
+
+
+
+    p27.take{
+      color:#ce1829;
+         position:absolute;
+         top:5450px;
+         left:380px;
+         font-size:45px;
+         max-width: 200px;
+         text-decoration: line-through;
+
+
+
+      }
+    p5.disco{color:#ffffff;
        position:absolute;
-       top:800px;
-       left:700px;
-       font-size: 10px;
+       top:5300px;
+       left:750px;
+       font-size: 20px;
+       max-width: 200px;
 
 
     }
+p13.free{color:#232f3e;
+   position:absolute;
+   top:400px;
+   left:500px;
+   font-size: 200px;
+
+}
+p14.smallfree{color:#232f3e;
+   position:absolute;
+   top:340px;
+   left:750px;
+   font-size: 100px;
+   transform:rotate(180deg);
+
+}
+p15.free1{color:#232f3e;
+   position:absolute;
+   top:240px;
+   left:220px;
+   font-size: 200px;
+   transform:rotate(180deg);
+
+}
+p16.free2{color:#232f3e;
+   position:absolute;
+   top:170px;
+   left:420px;
+   font-size: 120px;
+
+}
+p17.free3{color:#232f3e;
+   position:absolute;
+   top:540px;
+   left:280px;
+   font-size: 120px;
+   transform:rotate(270deg);
+
+}
+p18.free4{color:#232f3e;
+   position:absolute;
+   top:580px;
+   left:40px;
+   font-size: 200px;
+   transform:rotate(270deg);
+
+}
+p19.free5{color:#232f3e;
+   position:absolute;
+   top:420px;
+   left:-380px;
+   font-size: 350px;
+   transform:rotate(270deg);
+   opacity:.8;
+
+}
+p20.free6{color:#232f3e;
+   position:absolute;
+   top:-200px;
+   left:500px;
+   font-size: 280px;
+   transform:rotate(270deg);
+   opacity:.8;
+
+}
+p21.free7{color:#ce1829;
+   position:fixed;
+   top:80px;
+   left:600px;
+   font-size: 600px;
+
+}
+p22.free8{
+  color:#232f3e;
+     position:absolute;
+     top:400px;
+     left:810px;
+     font-size: 240px;
+     transform:rotate(270deg);
+     opacity:.8;
+}
+p23.free9{
+  color:#232f3e;
+     position:absolute;
+     top:300px;
+     left:900px;
+     font-size: 330px;
+     transform:rotate(270deg);
+     opacity:.8;
+
+}
+
+p24.seven{
+  color:black;
+  position:absolute;
+  top:1400px;
+  left:800px;
+  font-size:200px;
+  max-width: 50px;
+
+}
+p25.but{
+  color:black;
+  position:absolute;
+  top:1800px;
+  left:800px;
+  font-size:400px;
+  max-width: 50px;
+opacity:.5;
+}
+
+p26.two{
+  color:black;
+  position:absolute;
+  top:3280px;
+  left:950px;
+  font-size:320px;
+  max-width: 50px;
+opacity:.9;
+}
+
+
+
+
+  p{text-decoration: none;
+    color:red;
+    border-bottom: 1px solid black;
+
+  }
+ a.p01{text-decoration:none;
+   color:black;
+   position:absolute;
+   left:10px;
+   top:50px;
+
+ }
+ a.p02{text-decoration:none;
+   top:100px;
+   left:100px;
+   color:black;
+
+ }
+ @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+ body{
+   font-family: 'Comfortaa', cursive;
+ }
+
+
+
+
+ #rectangle {
+   width:1800px;
+   height: 250px;
+   position:absolute;
+   top:1400px;
+   left:0px;
+   background:black;
+   opacity: .5;
+ animation: shape1 5s infinite alternate; /* IE 10+, Fx 29+ */
+
+}
+
+@keyframes shape1 {
+ 0% { left:-600px;}
+
+ 100% { left: 950px;}
+}
 
 
 
 
 
 
+
+
+ body
+ {
+   background-image: url(image/bluetexture.jpg);
+   padding-bottom: 4000px;
+   background-repeat:repeat;
+   background-size:1100px;
+ }
 
     </style>
   </head>
   <body>
-    <div>
+    <div class="shape1"></div>
+    <div class="shape2"> </div>
+    <div class="shape3"> </div>
+   <div class="shape4"> </div>
+   <div class="shape5"> </div>
+
+  <p13 class=free> FREE </p13>
+  <p14 class= smallfree> FREE </p14>
+  <p15 class=free1> FREE </p15>
+  <p16 class=free2> FREE </p16>
+  <p17 class=free3> FREE </p17>
+  <p18 class=free4> FREE </p18>
+  <p19 class=free5> FREE </p19>
+  <p20 class=free6> FREE </p20>
+  <p21 class=free7> ? </p21>
+  <p22 class=free8> FREE</p22>
+  <p23 class=free9> FREE</p23>
+
+<p24 class=seven> Seven months ago,</p24>
+<p25 class=but> But the moment</p25>
+<p26 class=two> Two weeks later,</p26>
+
+
+
+
+
      <br>
-      <a href="https://elizabethsee.github.io/project/Proj01_S03_V02.html" target="_blank"><p>previous</p></a>
-      <a href="https://makiclin.github.io/project/pj1-step3-2" target="_blank"><p>next</p>
-     <p0 class="disco">F</p0>
-     <p6 class="disco">R</p6>
-     <p7 class="disco">E</p7>
-     <p8 class="disco">E</p8>
-     <p9 class="disco">"</p9>
-     <p10 class="disco">"</P10>
+      <a class="p02" href="https://elizabethsee.github.io/project/Proj01_S03_V02.html" target="_blank">previous</a>
+      <a class="p01" href="https://makiclin.github.io/project/pj1-step3-2" target="_blank">next</a>
+
+
     <p1 class="disco"> <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Seven months ago, <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp I sat down at the small table in the kitchen <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp of my 1960s apartment, nestled on the top floor <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp of a building in a vibrant central neighbourhood <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp of Tehran, and I did something I had done thousands <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp times previously. I opened my laptop and posted<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp to my new blog. This, though, was the first time in <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  six years. And it nearly broke my heart.</p1>
 
     <p2 class="disco"> A few weeks earlier,<br>I’d been abruptly pardoned and freed from<br> Evin prison in northern Tehran. I had been <br> expecting to spend most of my life in those <br> cells: In November 2008, I’d been sentenced <br>to nearly 20 years in jail, mostly for things<br> I’d written on my blog.</p2>
 
-    <p11 class="disco">But the moment<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspwhen it came, was unexpected. I smoked <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspa cigarette in the kitchen with one of my fellow <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspinmates, and came back to the room I shared <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspwith a dozen other men. We were sharing a cup <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp of tea when the voice of the floor announcer<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp — another prisoner — filled all the rooms and<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp corridors. In his flat voice, he announced in Persian: “<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Dear fellow inmates, the bird of luck has once again <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp sat on one fellow inmate’s shoulders. Mr. Hossein<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Derakhshan, as of this moment, you are free.” That <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp evening was the first time that I went out of those<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp doors as a free man. Everything felt new: The chill<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp autumn breeze, the traffic noise from a nearby<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp bridge, the smell, the colors of the city I had lived <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspin for most of my life.</p11>
+    <p11 class="disco"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspBut the moment<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspwhen it came, was unexpected. I smoked <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspa cigarette in the kitchen with one of my fellow <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspinmates, and came back to the room I shared <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspwith a dozen other men. We were sharing a cup <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp of tea when the voice of the floor announcer<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp — another prisoner — filled all the rooms and<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp corridors. In his flat voice, he announced in Persian: “<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Dear fellow inmates, the bird of luck has once again <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp sat on one fellow inmate’s shoulders. Mr. Hossein<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Derakhshan, as of this moment, you are free.” That <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp evening was the first time that I went out of those<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp doors as a free man. Everything felt new: The chill<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp autumn breeze, the traffic noise from a nearby<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp bridge, the smell, the colors of the city I had lived <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspin for most of my life.</p11>
 
-   <c1 class="disco">,</c1>
-    <p4 class="disco">Around me, <br>I noticed a very different Tehran from the one <br>I’d been used to. An influx of new, shamelessly <br>luxurious condos had replaced the charming little houses<br> I was familiar with. New roads, new highways, hordes <br>of invasive SUVs. Large billboards with advertisements<br> for Swiss-made watches and Korean flat screen TVs. <br>Women in colorful scarves and manteaus, men with <br>dyed hair and beards, and hundreds of charming cafes<br> with hip western music and female staff. They were <br> the kinds of changes that creep up on people; the<br> kind you only really notice once normal life gets<br> taken away from you.</p4>
+   <c1 class="disco"></c1>
+    <p4 class="disco">Around me, <br>I noticed a very different Tehran from the one <br>I’d been used to. An influx of new, shamelessly <br>luxurious condos had replaced the charming little houses<br> I was familiar with. New roads, new highways, hordes <br>of invasive SUVs. Large billboards with advertisements<br> for Swiss-made watches and Korean flat screen TVs. <br>Women in colorful scarves and manteaus, men with <br>dyed hair and beards, and hundreds of charming cafes<br> with hip western music and female staff. They were <br> the kinds of changes that creep up on people; the<br> kind you only really notice once normal life gets<br> </p4>
+
+   <p27 class="take">taken away from you.</p27>
 
     <p5 class="disco">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Two weeks later, <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp I began writing again. Some friends agreed to let<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp me start a blog as part of their arts magazine.<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp I called it Ketabkhan — it means book-reader in Persian.</p5>
 
-      <div id="rectangle"></div>
+
+ <p12 class="line1"> FREE FREE FREE FREE </p12>
+ <div id="rectangle"></div>
+
+
+
+
+
+
     <br>
     <br>
     <br>
@@ -202,6 +486,6 @@
 
 
 
-</div>
+
   </body>
 </html>
